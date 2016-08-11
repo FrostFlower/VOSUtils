@@ -1,0 +1,7 @@
+fields: num         fixed bin (15),
+        name        char (32),
+        text        char (128) varying,
+        category    char(18),
+        category2   char(18);
+
+end;

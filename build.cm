@@ -1,0 +1,7 @@
+&if (software_purchased s456) = 0 &then &do
+!display_line No Stratus C compiler. Exiting...
+&return
+&end
+!create_table consolidate_record_files
+!make_message_file consolidate_record_files
+!vcc consolidate_record_files.c

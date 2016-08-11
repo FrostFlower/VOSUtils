@@ -1,0 +1,21 @@
+/* Error codes for Kari Aurelia's utilities */
+
+/    =num   -1
+     =name  e$too_many_records
+     =text  'Too many records, with index padding disabled.'
+     =category
+
+/    =num -2
+     =name e$too_many_indexes
+     =text 'Too many indexes, with record padding disabled.'
+     =category
+
+/	 =num -3
+	 =name e$stream_file
+	 =text 'A stream file cannot be used as a source of keys or records.'
+	 =category
+
+/    =num -4
+	 =name e$invalid_extent_size
+	 =text 'Extent size must be a power of 2, and must be no higher than 256.'
+	 =category
